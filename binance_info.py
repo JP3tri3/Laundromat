@@ -19,3 +19,4 @@ btcTickerPrice = client.get_symbol_ticker()[0]['price']
 for i in exchangeSymbols:
     print(i)
     print("")
+git remote
