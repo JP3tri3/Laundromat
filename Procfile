@@ -1,1 +1,1 @@
-gunicorn main:app --bind 0.0.0.0:1337 --worker-class sanic.worker.GunicornWorker
+gunicorn main:app --bind 0.0.0.0:8080 --worker-class sanic.worker.GunicornWorker
