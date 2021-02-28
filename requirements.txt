@@ -34,3 +34,5 @@ gunicorn
 # https://sanic.readthedocs.io/en/latest/sanic/deploying.html
 
 # Sanic Test: http://127.0.0.1:8000/
+
+# gunicorn main:app --bind 0.0.0.0:1337 --worker-class sanic.worker.GunicornWorker?
