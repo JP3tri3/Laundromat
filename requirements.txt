@@ -1,10 +1,10 @@
 # flask
 # gunicorn
 sanic
+sanic-jinja2
 pipwin
 Twisted
 python-binance
-sanic-jinja2
 gunicorn
 # Bybit
 
@@ -39,3 +39,5 @@ gunicorn
 
 # gunicorn main:app --bind 0.0.0.0:1337 --worker-class sanic.worker.GunicornWorker?
 # web: gunicorn main:app
+
+# gunicorn main:app --bind 0.0.0.0:1337 --worker-class sanic.worker.GunicornWorker?
